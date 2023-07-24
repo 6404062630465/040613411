@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta name="author" content="Banchar Paseelatesang">
+    <meta name="description" content="Echo Form Data">
+    <meta charset="utf-8">
+    <title></title>
+<script>
+    document.getElementById('Username').focus();
+    </script>
+    
+</head>
+
+<body onload="document.getElementById('Username').focus()">
+    <h1>เข้าสู่ระบบ</h1>
+    <form action="Lab2.32.html" method="get">
+        <table border="1">
+            <tr>
+            <th align="left">Username:</th>
+            <th>
+                <input type="text"id="Username" name="Username" size="20" required>
+            </th>
+            </tr>
+            <tr>
+                <th align="left">Password:</th>
+                <th>
+                    <input type="text" name="Password" size="20" required>
+                </th>
+                </tr>
+            <tr>
+                <th colspan="2" align="left">กรุณาพิมพ์ตามตัวเลขที่ปรากฎ:
+                    <br>1559
+                    <br><input type="text" name="Number" size="20" required pattern="1559">
+                </th>
+                </tr>
+            </table>
+                <br>
+                <button><img src="login-button-png-0.png" width="50px"></button>
+        </form>
+</body>
+
+</html>
