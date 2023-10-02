@@ -11,7 +11,7 @@
     เบอร์โทร : <input type="textarea" name="mobile"><br>
     อีเมล์ : <input type="textarea" name="email"><br>
     <input type="file" name="image" id="image"><br>
-    <input type="submit" value="เพิ่มสินค้า">
+    <input type="submit" value="เพิ่มผู้ใช้">
     </form>
 </body>
 </html>
